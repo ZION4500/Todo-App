@@ -1,0 +1,116 @@
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+textarea{
+    resize: none;
+}
+.newTask{
+    /* margin: 20px; */
+    display: flex;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ECDFCC;
+}
+.newTask input{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    background-color: #3C3D37;
+    color: #EEEDEB;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    
+}
+.newTask input:focus{
+    outline: none;
+    border-style: solid;
+    border-color: white !important;
+    border-width: 1px;
+}
+.newTask button{
+    color: #EEEDEB;
+    border-right: solid 1px !important;
+    border-right-color: white !important;
+    border: none;
+    background-color: #3C3D37;
+    width: 25%;
+    height: 45px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.todo{
+    background-color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    /* margin : 10px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: auto;
+    padding-right: auto;
+    /* padding: 10px; */
+    border-radius: 15px;
+    width: 500px;
+    height: 500px;
+}
+.task{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 5px;
+    height: 40px;
+}
+.task button{
+    border: none;
+    background-color: #3C3D37;
+    width: 50px;
+    height: 30px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    margin-right: 4px;
+    color: white;
+}
+.task li textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    background-color: transparent !important;
+    border: none !important;
+    height: 50%;
+}   
+.task li textarea:focus{
+    outline: none;
+}
+
+.task li{
+    /* padding-top: 5px; */
+}
